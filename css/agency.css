@@ -897,6 +897,7 @@ body {
   flex-grow: 1;
   width: 100%;
   color:white;
+  font-size: 1.5em;
 }
 .appTypeButton {
   background-repeat: no-repeat;
@@ -928,7 +929,7 @@ body {
 #TypesofApps {
   text-transform: none;
   font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   font-style: italic;
   font-weight: 400;
   color: white;
@@ -950,9 +951,9 @@ body {
 .newsAppContainer a img:hover{
   margin: 1em;
   /*border: 0.25em solid #FFC600;*/
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 1);
-  -moz-box-shadow:    0px 1px 10px 0px rgba(50, 50, 50, 1);
-  box-shadow:         0px 1px 10px 0px rgba(50, 50, 50, 1);
+  -webkit-box-shadow: 0px 0px 25px 5px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 25px 5px rgba(255,255,255,1);
+  box-shadow: 0px 0px 25px 5px rgba(255,255,255,1);
 }
 .bmapp {
 
