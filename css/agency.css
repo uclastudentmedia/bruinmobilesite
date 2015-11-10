@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
 
 body {
     overflow-x: hidden;
@@ -175,7 +170,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
     color: #1F92FF;
 }
 
@@ -206,7 +202,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Oswald', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -654,7 +650,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/img-map.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -891,8 +887,8 @@ body {
   /*color: #FFC600!important;*/
   color: black;
   margin-top: 3em;
-  font-family: sans-serif;
-  letter-spacing: 0.5em;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.2em;
   display: block;
   flex-grow: 1;
   width: 100%;
@@ -909,13 +905,7 @@ body {
   width: 1em;
   height: 1em;
   background-color: #f7f7f7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
-  background-image: -webkit-linear-gradient(top, #f7f7f7, #e7e7e7);
-  background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7);
-  background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7);
-  background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7);
   color: #a7a7a7;
-  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
   position: relative;
   z-index: 0;
   font-size: 4em;
