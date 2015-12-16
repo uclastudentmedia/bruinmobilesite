@@ -25,6 +25,7 @@ $("#app-type-classifieds").click(function() {
 })
 */
 
+/*
 $(document).ready(function() {
   $('.appTypeButton').click(function() {
     var id = '#' + $(this).attr('id') + '-collapse';
@@ -32,3 +33,4 @@ $(document).ready(function() {
     $(id).toggleClass('collapse');
   });
 });
+*/
